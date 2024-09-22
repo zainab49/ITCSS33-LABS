@@ -13,4 +13,8 @@ Each lab exercise is organized in its own folder and includes the code, document
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/lab-work.git
+   git clone https://github.com/zainab49/ITCSS33-LABS.git
+
+  ## Done by  :
+  Zainab Abdali  202005678
+  
