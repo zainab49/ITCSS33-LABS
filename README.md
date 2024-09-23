@@ -16,6 +16,6 @@ Each lab exercise is organized in its own folder and includes the code, document
    git clone https://github.com/zainab49/ITCSS33-LABS.git
 
   ## Done by  :
-  Zainab Abdali  202005678 \n
+  Zainab Abdali  202005678 
   Muhanna jamal 20198028
   
