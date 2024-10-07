@@ -1,0 +1,144 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font choice */
+    background-color: #f9fbe7; /* Light green background */
+    color: #333; /* Dark text for readability */
+    margin-left: 100px;
+    margin-right:100px ;
+    margin-top: 20px;
+    align-items: center;
+   
+}
+
+/* Header styling */
+header {
+    background-color: #ffcc00; 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff5733; 
+    font-size: 2.5rem; /* Increase size */
+}
+div.imgs {
+   min-height: 30px;
+   display:flex;
+   justify-content: space-between;
+}
+div.img1{
+    background-image: url(imges/1.jpg);
+    background-size: cover;
+    background-position: top center;
+    min-height: 250px;
+    width: 30%;
+}
+div.img2{
+    background-image: url(imges/2.jpg);
+    background-size: cover;
+    background-position: top center;
+    min-height: 250px;
+    width: 30%;
+}
+div.img3{
+    background-image: url(imges/3.jpg);
+    background-size: cover;
+    background-position: top center;
+    min-height: 250px;
+    width: 30%;
+}
+div.img4{
+    background-image: url(imges/4.jpg);
+    background-size: cover;
+    background-position: top center;
+    min-height: 250px;
+    width: 30%;
+}
+div.img5{
+    background-image: url(imges/5.jpg);
+    background-size: cover;
+    background-position: top center;
+    min-height: 250px;
+    width: 30%;
+}
+div.img6{
+    background-image: url(imges/6.jpg);
+    background-size: cover;
+    background-position: top center;
+    min-height: 250px;
+    width: 30%;
+}
+
+
+/* Navigation styling */
+nav {
+    background-color: #ff5733; /* Bright orange */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white; /* White text for links */
+    margin: 0 15px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make it bold */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+}
+
+/* Section headings */
+h2 {
+    color: #ff5733; /* Consistent heading color */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+/* Schedule, Activities, Parent, Teacher sections styling */
+schedule, parent, teacher {
+     /* Dashed border for sections */
+    padding: 15px;
+    margin: 20px 0;
+     /* White background for sections */
+    border-radius: 10px; /* Rounded corners */
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #ffcc00; /* Bright yellow */
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+footer li {
+    display: inline; /* Inline list items */
+    margin: 0 10px; /* Space between social icons */
+}
+
+footer a {
+    color: #ff5733; /* Link color in footer */
+    text-decoration: none; /* No underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
