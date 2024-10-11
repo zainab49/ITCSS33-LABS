@@ -138,7 +138,16 @@ footer a {
     color: #ff5733; /* Link color in footer */
     text-decoration: none; /* No underline */
 }
+/* VIEW THROGH SMALL SCREEN  */
+@media (max-width: 480px) {
+    div.img {
+        width: 100%; 
+    }
 
+    header h1 {
+        font-size: 2rem; 
+    }
+}
 footer a:hover {
     text-decoration: underline; /* Underline on hover */
 }
