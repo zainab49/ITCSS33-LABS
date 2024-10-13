@@ -7,9 +7,9 @@
 
 /* Body styling */
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font choice */
-    background-color: #f9fbe7; /* Light green background */
-    color: #333; /* Dark text for readability */
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    background-color: #eae7fb; 
+    color: #333; 
     margin-left: 100px;
     margin-right:100px ;
     margin-top: 20px;
@@ -19,19 +19,19 @@ body {
 
 /* Header styling */
 header {
-    background-color: #ffcc00; 
+    background-color: #beb5e9; 
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     color: #ff5733; 
-    font-size: 2.5rem; /* Increase size */
+    font-size: 2.5rem; 
 }
 div.imgs {
    min-height: 30px;
    display:flex;
-   justify-content: space-between;
+   justify-content:space-around ;
 }
 div.img1{
     background-image: url(imges/1.jpg);
@@ -79,14 +79,14 @@ div.img6{
 
 /* Navigation styling */
 nav {
-    background-color: #ff5733; /* Bright orange */
+    background-color: #ff5733; 
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: white; /* White text for links */
-    margin: 0 15px; /* Space between links */
+    color: white; 
+    margin: 0 15px; 
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make it bold */
 }
@@ -108,35 +108,35 @@ h2 {
 
 /* Schedule, Activities, Parent, Teacher sections styling */
 schedule, parent, teacher {
-     /* Dashed border for sections */
+    
     padding: 15px;
     margin: 20px 0;
-     /* White background for sections */
+    
     border-radius: 10px; /* Rounded corners */
 }
 
 
 /* Footer styling */
 footer {
-    background-color: #ffcc00; /* Bright yellow */
+    background-color: #beb5e9; 
     text-align: center;
     padding: 20px;
     margin-top: 20px;
 }
 
 footer ul {
-    list-style: none; /* Remove default list styling */
+    list-style: none; 
     padding: 0;
 }
 
 footer li {
-    display: inline; /* Inline list items */
+    display: inline; 
     margin: 0 10px; /* Space between social icons */
 }
 
 footer a {
-    color: #ff5733; /* Link color in footer */
-    text-decoration: none; /* No underline */
+    color: #ff5733; 
+    text-decoration: none; 
 }
 /* VIEW THROGH SMALL SCREEN  */
 @media (max-width: 480px) {
