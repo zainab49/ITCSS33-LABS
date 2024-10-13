@@ -10,9 +10,10 @@ body {
     font-family: 'Comic Sans MS', cursive, sans-serif; 
     background-color: #eae7fb; 
     color: #333; 
-    margin-left: 100px;
-    margin-right:100px ;
-    margin-top: 20px;
+    /* i did this but he didnt like it so i kept it as comment :) */
+    /* margin-left: 100px; */
+    /* margin-right:100px ; */
+    /* margin-top: 20px; */
     align-items: center;
    
 }
